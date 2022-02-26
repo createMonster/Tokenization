@@ -10,4 +10,4 @@ module.exports = async function(deployer) {
 
     let instance = await MyToken.deployed();
     await instance.transfer(MyTokenSale.address, process.env.INITIAL_TOKENS);
-}
+};
